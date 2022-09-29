@@ -1,0 +1,194 @@
+.sideBar{
+    background-color: #25252e;
+    height: 100vh;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    ul{
+        margin: 0;
+        padding: 0;
+        .product{
+            list-style: none;
+            margin: 0;
+            padding: 10px;
+            text-align: center;
+            font-size: 25px;
+            font-family: "DM San";
+            margin-top: 10px;
+            transition: 0.3s ease-in-out;
+            cursor: pointer;
+            a{
+                text-decoration: none;
+                color: #fff;
+                background-color: #358EED;
+                border-radius: 10px;
+                padding: 10px 100px;
+                transition: 0.3s ease-in-out;
+                cursor: pointer;
+                &:hover{
+                   background-color: transparent;
+                   color: white;
+                }
+            }
+        }
+        .dashboard{
+            text-align: center;
+            padding-top: 20px;
+            list-style:none;
+            border-bottom: 1px solid #fff;
+            color: white;
+            cursor: pointer;
+            a{
+                color: white;
+                text-decoration: none;
+                font-size: 40px;
+                font-family:  "Crimson Text", serif;
+                cursor: pointer;
+            }
+        }
+        .category{
+            list-style: none;
+            margin: 0;
+            padding: 10px;
+            text-align: center;
+            font-size: 25px;
+            font-family: "DM San";
+            margin-top: 10px;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+            a{
+                text-decoration: none;
+                color: #fff;
+                background-color: #E02A6A;
+                border-radius: 10px;
+                padding: 10px 92px;
+                transition: 0.3s ease-in-out;
+                cursor: pointer;
+                &:hover{
+                   background-color: transparent;
+                   color: white;
+                }
+            }
+        }
+        .blog{
+            list-style: none;
+            margin: 0;
+            padding: 10px;
+            text-align: center;
+            font-size: 25px;
+            font-family: "DM San";
+            margin-top: 10px;
+            transition: 0.3s ease-in-out;
+            cursor: pointer;
+            a{
+                text-decoration: none;
+                color: #fff;
+                background-color: #5AB25E;
+                border-radius: 10px;
+                padding: 10px 113px;
+                transition: 0.3s ease-in-out;
+                cursor: pointer;
+                &:hover{
+                   background-color: transparent;
+                   color: white;
+                }
+            }
+        }
+        .order{
+            list-style: none;
+            margin: 0;
+            padding: 10px;
+            text-align: center;
+            font-size: 25px;
+            font-family: "DM San";
+            margin-top: 10px;
+            transition: 0.3s ease-in-out;
+            cursor: pointer;
+            a{
+                text-decoration: none;
+                color: #fff;
+                background-color: #A32CC4;
+                border-radius: 10px;
+                padding: 10px 113px;
+                transition: 0.3s ease-in-out;
+                cursor: pointer;
+                &:hover{
+                   background-color: transparent;
+                   color: white;
+                }
+            }
+        }
+        .brand{
+            list-style: none;
+            margin: 0;
+            padding: 10px;
+            text-align: center;
+            font-size: 25px;
+            font-family: "DM San";
+            margin-top: 10px;
+            transition: 0.3s ease-in-out;
+            cursor: pointer;
+            a{
+                text-decoration: none;
+                color: #fff;
+                background-color: aqua;
+                border-radius: 10px;
+                padding: 10px 113px;
+                transition: 0.3s ease-in-out;
+                cursor: pointer;
+                &:hover{
+                   background-color: transparent;
+                   color: white;
+                }
+            }
+        }
+        .comment{
+            list-style: none;
+            margin: 0;
+            padding: 10px;
+            text-align: center;
+            font-size: 25px;
+            font-family: "DM San";
+            margin-top: 10px;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+            a{
+                text-decoration: none;
+                color: #fff;
+                background-color: rgb(165, 49, 49);
+                border-radius: 10px;
+                padding: 10px 92px;
+                transition: 0.3s ease-in-out;
+                cursor: pointer;
+                &:hover{
+                   background-color: transparent;
+                   color: white;
+                }
+            }
+        }
+        .logout{
+            list-style: none;
+            margin: 0;
+            padding: 10px;
+            text-align: center;
+            font-size: 25px;
+            font-family: "DM San";
+            margin-top: 10px;
+            transition: 0.3s ease-in-out;
+            cursor: pointer;
+            a{
+                text-decoration: none;
+                color: #fff;
+                background-color: #eb89a0;
+                border-radius: 10px;
+                padding: 10px 100px;
+                transition: 0.3s ease-in-out;
+                cursor: pointer;
+                &:hover{
+                   background-color: transparent;
+                   color: white;
+                }
+            }
+        }
+    }
+}

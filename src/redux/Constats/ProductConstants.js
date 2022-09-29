@@ -1,0 +1,3 @@
+export const GET_PRODUCTS = "GET_PRODUCTS"
+export const CREATE_PRODUCT = "CREATE_PRODUCT"
+
