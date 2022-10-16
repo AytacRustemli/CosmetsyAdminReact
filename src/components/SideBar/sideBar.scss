@@ -4,6 +4,7 @@
     border-radius: 20px;
     margin-top: 20px;
     margin-left: 20px;
+    position: fixed;
     ul{
         margin: 0;
         padding: 0;
@@ -192,3 +193,104 @@
         }
     }
 }
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+    .sideBar{
+        position: relative;
+        height: 80vh;
+    }
+}
+  
+// Medium devices (tablets, 768px and up)
+@media(min-width: 576px) and (max-width: 768px) {
+    .sideBar{
+        position: relative;
+        height: 60vh;
+        ul{
+            .product{
+                a{
+                    padding: 10px 300px;
+                }
+            }
+            .category{
+                a{
+                    padding: 10px 300px;
+                }
+            }
+            .blog{
+                a{
+                    padding: 10px 320px;
+                }
+            }
+            .order{
+                a{
+                    padding: 10px 310px;
+                }
+            }
+            .brand{
+                a{
+                    padding: 10px 305px;
+                }
+            }
+            .comment{
+                a{
+                    padding: 10px 292px;
+                }
+            }
+            .logout{
+                a{
+                    padding: 10px 300px;
+                }
+            }
+        }
+    }
+}
+  
+  // Large devices (desktops, 992px and up)
+  @media(min-width: 768px) and (max-width: 992px) {
+    .sideBar{
+        position: relative;
+        height: 60vh;
+        ul{
+            .product{
+                a{
+                    padding: 10px 300px;
+                }
+            }
+            .category{
+                a{
+                    padding: 10px 300px;
+                }
+            }
+            .blog{
+                a{
+                    padding: 10px 320px;
+                }
+            }
+            .order{
+                a{
+                    padding: 10px 310px;
+                }
+            }
+            .brand{
+                a{
+                    padding: 10px 305px;
+                }
+            }
+            .comment{
+                a{
+                    padding: 10px 292px;
+                }
+            }
+            .logout{
+                a{
+                    padding: 10px 300px;
+                }
+            }
+        }
+    }
+  }
+  
+  // Extra large devices (large desktops, 1200px and up)
+  @media (max-width: 1200px) {}

@@ -68,7 +68,7 @@ const Product = () => {
                 {
                     products &&
                     products.map((product) => (
-                        <div key={product.id} className="col-lg-3 my-2">
+                        <div key={product.id} className="col-lg-3 col-md-6 my-2">
                             <div className="card">
                                 <div className="card-body text-center">
                                     <img className='img-fluid' style={{ height: 200 }} src={`${FILE_PATH}${product.coverPhoto}`} alt="" />

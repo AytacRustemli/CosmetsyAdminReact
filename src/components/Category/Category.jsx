@@ -48,7 +48,7 @@ const Category = () => {
   return (
     <div className='container my-5'>
       <div className="row">
-        <div className="col-lg-4 my-4">
+        <div className="col-lg-4 col-md-6 my-4">
           <Link to="/category/create">
             <button className='btn btn-outline-success'>Create</button>
           </Link>
